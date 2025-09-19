@@ -16,7 +16,7 @@ jobs:
       - name: Create custom HTML
         run: |
           mkdir -p html
-          echo "<h1>Hello World from GitHub Actions!</h1>" > html/index.html
+          echo "<h1>hi prabhat this is your web page!</h1>" > html/index.html
           echo "<h2>Welcome to my webpage</h2>" >> html/index.html
  
       - name: Configure AWS credentials
